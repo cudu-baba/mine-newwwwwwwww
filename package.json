@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name PANDA-OFC-BOT",
-    "stop": "pm2 stop Didula-MD",
+    "stop": "pm2 stop PANDA-MD",
     "restart": "pm2 restart PANDA-OFC-BOT"
   },
   "dependencies": {
