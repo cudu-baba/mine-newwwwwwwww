@@ -81,7 +81,7 @@ const port = process.env.PORT || 9090;
 async function connectToWA() {
 //Run the function
   
-	console.log("Connecting Didula-MD 🧬...");
+	console.log("Connecting Bot 🧬...");
     const {
         version,
         isLatest
@@ -374,8 +374,6 @@ conn.ev.on("call", async (json) => {
   
   
   
-  
-
   
   
 //read commands
